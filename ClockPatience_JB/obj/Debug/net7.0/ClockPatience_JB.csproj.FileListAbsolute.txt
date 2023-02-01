@@ -1,0 +1,15 @@
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/bin/Debug/net7.0/ClockPatience_JB
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/bin/Debug/net7.0/ClockPatience_JB.deps.json
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/bin/Debug/net7.0/ClockPatience_JB.runtimeconfig.json
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/bin/Debug/net7.0/ClockPatience_JB.dll
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/bin/Debug/net7.0/ClockPatience_JB.pdb
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/obj/Debug/net7.0/ClockPatience_JB.csproj.AssemblyReference.cache
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/obj/Debug/net7.0/ClockPatience_JB.GeneratedMSBuildEditorConfig.editorconfig
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/obj/Debug/net7.0/ClockPatience_JB.AssemblyInfoInputs.cache
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/obj/Debug/net7.0/ClockPatience_JB.AssemblyInfo.cs
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/obj/Debug/net7.0/ClockPatience_JB.csproj.CoreCompileInputs.cache
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/obj/Debug/net7.0/ClockPatience_JB.dll
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/obj/Debug/net7.0/refint/ClockPatience_JB.dll
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/obj/Debug/net7.0/ClockPatience_JB.pdb
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/obj/Debug/net7.0/ClockPatience_JB.genruntimeconfig.cache
+/Users/justinborg/Desktop/ClockPatience_JustinBorg/ClockPatience_JB/obj/Debug/net7.0/ref/ClockPatience_JB.dll
