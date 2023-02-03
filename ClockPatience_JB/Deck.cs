@@ -1,53 +1,45 @@
 ﻿using System;
+using ClockPatience_JB;
 namespace ClockPatience_JB
 {
-    public class Deck
+    public class DeckOfCards
     {
-        private Card[] deck;
-        private int CurrentCard;
-        private const int NUMBER_OF_CARDS = 52;
+        private const int NCARDS = 52;
+        private Card[] deckOfCards;
+        private int currentCard;
         private Random randNum;
-
-
-        public Deck()
+        public DeckOfCards()
         {
-            string[] faces = { "A", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K" };
+            deckOfCards = new Card[NCARDS];
+            int i = 0;
+            for (int suit = 1; suit <= 4; suit++)
+                for (int rank = 1; rank <= 13; rank++)
+                    deckOfCards[i++] = new Card(suit, rank);
+            currentCard = 0;
+        }
 
-            string[] suits = { "H", "C", "D", "S" };
-
-            deck = new Card[NUMBER_OF_CARDS];
-
-            CurrentCard = 0;
+        public void shuffle(int n)
+        {
+            int i, j;
             randNum = new Random();
-
-            for (int count = 0; count < deck.Length; count++)
+            for (int k = 0; k < n; k++)
             {
-                deck[count] = new Card(faces[count % 11], suits[count / 13]);
+                i = (int)(randNum.Next(NCARDS));
+                j = (int)(randNum.Next(NCARDS));
+                Card tmp = deckOfCards[i];
+                deckOfCards[i] = deckOfCards[j];
+                deckOfCards[j] = tmp;
             }
+
+            currentCard = 0;
         }
 
-        public void Shuffle()
+        public Card deal()
         {
-            CurrentCard = 0;
-            for (int first = 0; first < deck.Length; first++)
-            {
-                int second = randNum.Next(NUMBER_OF_CARDS);
-                Card temp = deck[first];
-                deck[first] = deck[second];
-                deck[second] = temp;
-            }
-        }
-
-        public Card DealCard()
-        {
-            if (CurrentCard < deck.Length)
-            {
-                return deck[CurrentCard++];
-            }
+            if (currentCard < NCARDS)
+                return (deckOfCards[currentCard++]);
             else
-            {
-                return null;
-            }
+                return (null);
         }
     }
 }

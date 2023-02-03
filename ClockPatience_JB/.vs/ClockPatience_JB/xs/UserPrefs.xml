@@ -2,15 +2,14 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.ClockPatience__JB PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="4" Column="1" />
-      <File FileName="Card.cs" Line="7" Column="29" />
-      <File FileName="Deck.cs" Line="51" Column="10" />
+      <File FileName="Program.cs" Line="26" Column="30" />
+      <File FileName="Card.cs" Line="2" Column="24" />
+      <File FileName="Deck.cs" Line="9" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,4 +23,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ClockPatience__JB PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

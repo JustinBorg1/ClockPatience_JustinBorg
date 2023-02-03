@@ -1,21 +1,35 @@
 ﻿using System;
+using ClockPatience_JB;
 namespace ClockPatience_JB
 {
     public class Card
     {
-
-        private string face;
-        private string suit;
-
-        public Card(string cardFace, string cardSuit)
+        public static readonly String[] Rank = { "*", "A", "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A" };
+        private static readonly String[] Suit = { "*", "D", "C", "H", "S" };
+        private byte cardSuit;
+        private byte cardRank;
+        public Card(int suit, int rank)
         {
-            face = cardFace;
-            suit = cardSuit;
+            if (rank == 1)
+                cardRank = 14;
+            else
+                cardRank = (byte)rank;
+            cardSuit = (byte)suit;
         }
 
-        public override string ToString()
+        public int suit()
         {
-            return face + suit;
+            return (cardSuit);
+        }
+
+        public int rank()
+        {
+            return (cardRank);
+        }
+
+        public String toString()
+        {
+            return (Rank[cardRank] + Suit[cardSuit]);
         }
     }
 }
