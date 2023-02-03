@@ -1,27 +1,25 @@
 ﻿<Properties StartupConfiguration="{6FCDC085-F302-4629-806D-F551B75FE819}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ClockPatience__JB PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="63" Column="18" />
-      <File FileName="Card.cs" Line="2" Column="24" />
-      <File FileName="Deck.cs" Line="9" Column="33" />
+      <File FileName="Program.cs" Line="53" Column="41" />
+      <File FileName="Card.cs" />
+      <File FileName="Deck.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ClockPatience_JB" expanded="True">
-            <Node name="ClockPatience_JB" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="ClockPatience_JB" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ClockPatience__JB PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
