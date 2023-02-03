@@ -7,7 +7,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="26" Column="30" />
+      <File FileName="Program.cs" Line="63" Column="18" />
       <File FileName="Card.cs" Line="2" Column="24" />
       <File FileName="Deck.cs" Line="9" Column="33" />
     </Files>
